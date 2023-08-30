@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p -A -1 | LC_COLLATE=C sort -d -t'_' -k1,1n -k1,1 -k2,2 | sed -n ':a;N;$s/\n/, /gp;s#/$#/,/#p'
+ls -amvp
